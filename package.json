@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "nuxt-stripe-module": "^3.2.0",
+    "stripe": "^15.5.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
